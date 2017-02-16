@@ -1,0 +1,36 @@
+{% extends "front.html" %}
+
+{% block content %}
+<body>
+		<h1>Is Your Blog Hot</h1>
+		<form method = "post">
+			<label>
+				<div>Title</div>
+				<input type="text" name="title" value="{{title}}">
+			</label>
+
+			<label>
+				<div>Your Hot Blog Post</div>
+				<textarea name="art">{{art}}</textarea>
+			</label>
+
+			<label>
+				<div>Who Are You</div>
+				<input type="text" name="author" value="{{author}}">
+			</label>
+			<br>
+
+			<div class="error">{{error}}</div>
+			<br>	
+			<input type="submit">
+		</form>
+	<hr>
+	<br>
+	</body>
+
+{% endblock %}
+
+
+
+
+	

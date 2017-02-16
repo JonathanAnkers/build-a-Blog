@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="/static/main.css" />
+
+  <title>What A Hot Blog</title>
+</head>
+
+<body class="center">
+	<h1>Its A Little Hot</h1>
+	<div>
+	<a href="/" class="nav">
+	Main Blogs
+	</a>
+	<a href="/newpost" class="nav">
+	New Post
+	</a>
+	<br>
+	<br>
+	</div>
+	
+	{% for art in blogs %}
+		<div>
+			<a href={{art.key().id()}}>{{art.title}}</a>
+			<br>
+			<div class="art-title">{{art.art}}</div>
+			<pre class="art-body">{{art.author}}</pre>
+		</div>
+	{% endfor %}
+
+	<div id="content">
+	{% block content %}
+	{% endblock %}
+	</div>
+</body>
+
+</html>

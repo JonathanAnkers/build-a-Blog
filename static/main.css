@@ -1,0 +1,68 @@
+body {
+	font-family: sans-serif;
+	width:800px;
+	margin: 0 auto;
+	padding: 10px;
+	background: url("https://images7.alphacoders.com/410/410661.jpg") no-repeat center center;
+
+
+}
+.error {
+	color: blue;
+	font-size: 30px;
+}
+label {
+	display: block;
+	font-size: 20px;
+}
+
+input[type=text] {
+	width: 400px;
+	font-size: 20px;
+	padding: 2px;
+}
+textarea {
+	width: 400px;
+	height: 200px;
+	font-size: 18px;
+	font-family: monospace;
+}
+
+input[type=submit] {
+	font-size: 24px;
+	background-color: black;
+	color: red;
+	border-radius: 10px;
+}
+
+.nav{
+	font-size: 40px;
+	text-decoration: none;
+	color:Black;
+	padding-left:20px;
+}
+
+a:hover {
+	color:red;
+	text-decoration: none;
+}
+
+.center {
+	display: inline;
+	text-align: center;
+
+}
+.blogt {
+	margin-top: 20px;
+	font-weight: 900;
+}
+
+.blogb {
+	
+	font-size: 17px;
+}
+
+.bloga {
+	font-weight:700;
+	font-size: 17px;
+}
